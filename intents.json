@@ -1,0 +1,114 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, how can i assist you with the maintenance",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later",
+          "Have a nice day",
+          "Bye! "
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "carpenter",
+        "patterns": [
+          "carpenter",
+          "have a carpentary issue ",
+          "Wall nailing needed to be done"
+        ],
+        "responses": [
+          "Do contact Anirudh - 9940637606",
+          "Do contact Aakash - 985648839",
+          "Do contact Balaji - 7896588374"
+        ]
+      },
+      {
+        "tag": "plumber",
+        "patterns": [
+          "Have an issue in my home?",
+          "Have a tap leak in my home",
+          "Drainage Leak",
+          "Plumber",
+          "Plumbing issue"
+          
+        ],
+        "responses": [
+          "Do contact Hanifa - 9879637606",
+          "Do contact Muthu - 985648839",
+          "Do contact Vivek - 7896588374"
+        ]
+      },
+      {
+        "tag": "electricity",
+        "patterns": [
+          "electrician",
+          "have a electricity issue ",
+          "have a fused bulb issue"
+        ],
+        "responses": [
+          "Do contact Irfan - 9879637678",
+          "Do contact Pandian - 985648839",
+          "Do contact Venkatesh - 7896588374"
+        ]
+      },
+      {
+        "tag": "Painter",
+        "patterns": [
+          "Painter",
+          "needs wall to be painted"
+        ],
+        "responses": [
+          "Do contact Vishwa - 9879639878",
+          "Do contact Mohan - 985648839",
+          "Do contact Rakshan - 7896588374"
+        ]
+      },
+      {
+        "tag": "Watchman",
+        "patterns": [
+          "Watchman",
+          "security "
+        ],
+        "responses": [
+          "Do contact Varun - 9879939878",
+          "Do contact Veda - 985648839",
+          "Do contact Shree - 7896588374"
+        ]
+      },
+      {
+        "tag": "laundary",
+        "patterns": [
+          "laundary"
+          
+        ],
+        "responses": [
+          "Do contact Keerthi - 9079939878",
+          "Do contact Daniel - 985648839",
+          "Do contact Kiran - 7896588374"
+        ]
+      }
+      
+    ]
+}
